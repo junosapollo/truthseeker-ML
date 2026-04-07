@@ -1,1 +1,26 @@
-/TruthSeeker-2024-dataset/TruthSeeker-2023-dataset
+# Dataset (large files)
+/TruthSeeker-2024-dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model files (large binaries)
+api/models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
